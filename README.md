@@ -15,20 +15,22 @@
 1. 已安装 Python 3.8+
 2. 本地运行 [chatTTS-ui](https://github.com/jianfcpku/chatTTS-ui) 服务
 3. 安装依赖库：
-```bash
-pip install requests tkinter
+    ```bash
+    pip install requests tkinter
 
 
-默认配置（可在 tts_synthesis() 函数中修改）：
-{
-    "voice": "seed_357_restored_emb-covert",
-    "prompt": "[break_6]",
-    "temperature": 0.3,
-    "top_p": 0.7,
-    "top_k": 20
-}
+    默认配置（可在 tts_synthesis() 函数中修改）：
+    {
+        "voice": "seed_357_restored_emb-covert",
+        "prompt": "[break_6]",
+        "temperature": 0.3,
+        "top_p": 0.7,
+        "top_k": 20
+    }
+
+
 ### 注意事项
-确保 chatTTS-ui 服务运行在 http://127.0.0.1:9966
-生成文件保存至 TTS_downloads 目录
-文件名自动清理特殊字符并截断至50字符
-网络异常时会自动跳过失败项
+- 确保 chatTTS-ui 服务运行在 http://127.0.0.1:9966
+- 生成文件保存至 TTS_downloads 目录
+- 文件名自动清理特殊字符并截断至50字符
+- 网络异常时会自动跳过失败项
