@@ -1,0 +1,4 @@
+text-to-chatTTS-ui/
+├── TTS_downloads/      # 语音文件输出目录
+├── api.py              # 主程序
+└── test.txt            # 示例文本文件

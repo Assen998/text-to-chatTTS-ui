@@ -1,0 +1,5 @@
+这是一个简单的程序
+传入text文件
+通过分行传入chatTTS-ui 的api
+以传入的文字重新命名
+下载音频到TTS_downloads文件夹
