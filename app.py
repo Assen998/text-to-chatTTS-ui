@@ -9,7 +9,7 @@ def tts_synthesis(text: str):
     try:
         res = requests.post('http://127.0.0.1:9966/tts', data={
             "text": text,
-            "voice": "2222",          # 默认音色值
+            "voice": "2222.pt",          # 默认音色值
             "prompt": "[break_6]",             # 恢复默认空字符串
             "temperature": 0.3,
             "top_p": 0.7,
