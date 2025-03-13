@@ -21,7 +21,7 @@
 
     默认配置（可在 tts_synthesis() 函数中修改）：
     {
-        "voice": "2222",
+        "voice": "2222.pt",
         "prompt": "[break_6]",
         "temperature": 0.3,
         "top_p": 0.7,
